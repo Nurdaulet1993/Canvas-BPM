@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EXAMPLE</title>
+
+        <link rel="stylesheet" type="text/css" href="style/all.css">
+	    <script type="text/javascript" src="js/wow.min.js" ></script>
+        
+        <script type="text/javascript" src="js/classses.js"></script>
+        <script type="text/javascript" src="js/utils.js" defer="defer"></script>
+        <script type="text/javascript" src="js/canvas.js" defer="defer"></script>
+        <script type="text/javascript" src="js/main.js" defer="defer"></script>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js" defer="defer"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="left_panel">
+                <h4>Панель инсрументов</h4>
+                <div class="shapes_container" >
+                    <!-- Контейнер который хранит фигуры -->
+                </div>
+            </div>
+            <div class="right-panel">
+                <div class="canvas_wrapper" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <canvas id="canvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
